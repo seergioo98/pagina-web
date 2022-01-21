@@ -1,0 +1,32 @@
+* {box-sizing: border-box;margin: 0;font-family: arial,sans-serif;}
+
+nav {background-color: brown;
+display: flex;
+justify-content: space-around;
+padding: 10px;
+text-decoration: none;}
+
+nav a {color: white;
+	text-decoration: none;
+text-shadow: 3px 3px 3px black;}
+
+	nav a:hover {color: yellow;
+		font-weight: bold;}
+
+		header {background-image: url(https://www.seguro-arquitectos.es/wp-content/uploads/12-datos-para-a%C3%B1adir-a-tus-conocimientos-sobre-la-arquitectura.jpg);
+			padding: 50px;
+			text-align: center ;
+			background-size: cover;}
+			
+
+			#contacto {background-color: lightgrey; border-radius: 10px;padding: 20px;}
+			#contacto {padding-left: 100px;padding-right: 100px;padding-bottom: 30px;}
+			#contacto input {width: 100%;
+				padding: 10px;border-radius: 5px;
+				margin-bottom: 10px;
+				border: 1px solid lightgrey;}
+
+				#contacto label {width: 20%;display: block;
+					font-weight: bold;
+					color: brown;
+					font-size: 1.2em;}
